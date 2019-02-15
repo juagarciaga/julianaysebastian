@@ -1,0 +1,355 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.4 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+#mainNav {
+  min-height: 56px;
+  background-color: #fccb0d;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+  font-weight: 700;
+  padding: .9rem 0;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link {
+    -webkit-transition: none;
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  #mainNav .nav-link:active {
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #161616;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #fccb0d;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #ba9402;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #fccb0d;
+    outline: none;
+    border-bottom: 0.25rem solid #fccb0d;
+  }
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/animation.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .masthead {
+    background-position: -565px 15px;
+  }
+}
+
+.masthead .box-text {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(73, 80, 87, 0.5)), color-stop(75%, rgba(73, 80, 87, 0.5)), to(#495057));
+  background: linear-gradient(to bottom, rgba(73, 80, 87, 0.5) 0%, rgba(73, 80, 87, 0.5) 75%, #495057 100%);
+  position: relative;
+  bottom: -150px;
+}
+
+@media (min-width: 992px) {
+  .masthead .box-text {
+    width: 80%;
+  }
+}
+
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+.masthead h2 i {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+    background-position: center -60px;
+  }
+  .masthead h1 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2 {
+    max-width: 50rem;
+    font-size: 1.25rem;
+  }
+}
+
+.btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #fccb0d;
+}
+
+.btn-primary:hover {
+  background-color: #d3a903;
+}
+
+.btn-primary:focus {
+  background-color: #d3a903;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #ba9402 !important;
+}
+
+.about-section {
+  padding-top: 2.5rem;
+  background: #fff;
+}
+
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+.iframe-fluid {
+  max-width: 100%;
+  height: -webkit-fill-available;
+  max-height: 300px;
+  margin-bottom: -7px;
+}
+
+.projects-section {
+  padding: 2.5rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #fccb0d;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #fccb0d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.signup-section {
+  padding: 2.5rem 0 13rem;
+  background: #b1d2f3 url("../img/rsvp.jpg");
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
+@media (min-width: 992px) {
+  .signup-section {
+    background-size: cover;
+    padding: 2.5rem 0 15rem;
+    background-position: center 0;
+  }
+}
+
+.signup-section .form-inline textarea,
+.signup-section .form-inline input {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+@media (min-width: 992px) {
+  .signup-section .form-inline textarea,
+  .signup-section .form-inline input {
+    width: 100%;
+    margin-bottom: 1rem !important;
+  }
+}
+
+.contact-section {
+  padding: 5rem 0 0;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #fccb0d;
+}
+
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #fccb0d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-section .social a:active {
+  color: #fff;
+}
+
+.game-section {
+  padding: 2.5rem 0;
+  background: #fff;
+}
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: #fccb0d;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #a18002;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #fccb0d !important;
+}
+
+.text-primary {
+  color: #fccb0d !important;
+}
+
+footer {
+  padding: 1rem 0;
+}
