@@ -1,0 +1,65 @@
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url('../img/animation.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+  @media (max-width: 992px) {
+    background-position: -565px 15px;
+  }
+
+  .box-text {
+    background: linear-gradient(to bottom, #{fade-out($gray-700, .5)} 0%,#{fade-out($gray-700, .5)} 75%,$gray-700 100%);
+    position: relative;
+    bottom: -150px;
+
+    @media(min-width: 992px) {
+      width: 80%;
+    }
+  }
+
+  h1 {
+    font-family: 'Varela Round';
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 0.1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+
+    i {
+      font-style: italic;
+    }
+  }
+  @media(min-width: 768px) {
+    h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  @media(min-width: 992px) {
+    height: 100vh;
+    padding: 0 0 5rem;
+    background-position: center -60px;
+
+    h1 {
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      letter-spacing: 0.8rem;
+    }
+    h2 {
+      max-width: 50rem;
+      font-size: 1.25rem;
+    }
+  }
+}

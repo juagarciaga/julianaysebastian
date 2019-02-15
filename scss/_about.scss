@@ -1,0 +1,15 @@
+.about-section {
+  padding-top: 2.5rem;
+  background: $white;
+  // background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  p {
+    margin-bottom: 5rem;
+  }
+}
+
+.iframe-fluid {
+  max-width: 100%;
+  height: -webkit-fill-available;
+  max-height: 300px;
+  margin-bottom: -7px;
+}

@@ -148,7 +148,7 @@
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
-    padding: 0;
+    padding: 0 0 5rem;
     background-position: center -60px;
   }
   .masthead h1 {
@@ -251,6 +251,18 @@
     background-size: cover;
     padding: 2.5rem 0 15rem;
     background-position: center 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .signup-section {
+    padding: 2.5rem 0 20rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .signup-section {
+    padding: 2.5rem 0 40rem;
   }
 }
 
