@@ -38,11 +38,20 @@ function getRandomRegalos() {
     var randomNumber = Math.floor(Math.random() * numeroDeRegalos);
     return numeroDeRegalos[randomNumber];
 }
-
 getRandomRegalos();
 
+regalos.forEach( function(item, i) {
+    $('#select-regalos').append('<option>' + item.name + '</option>');
+});
+
+
+$('#select-regalos').change(function() {
+    alert('desc' + regalos.precio);
+});
 
 regalos.forEach( function(item, i) {
-    $('.name-regalo').html(item.name);
+    $('.name').html(item.name);
     $('.description').html(item.description);
+    $('.image-regalo').addClass(item.class);
+    $('.price').html(item.precio);
 });
