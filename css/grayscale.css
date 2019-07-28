@@ -87,35 +87,30 @@
   }
 }
 
-.masthead {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: url("../img/capa.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+.masthead .intro-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 15%;
+  width: 80%;
 }
 
 @media (max-width: 992px) {
-  .masthead {
-    background-position: -565px 15px;
+  .masthead .intro-header {
+    position: relative;
+    width: 100%;
   }
 }
 
 .masthead .box-text {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(73, 80, 87, 0.5)), color-stop(75%, rgba(73, 80, 87, 0.5)), to(#495057));
   background: linear-gradient(to bottom, rgba(73, 80, 87, 0.5) 0%, rgba(73, 80, 87, 0.5) 75%, #495057 100%);
-  position: relative;
-  bottom: -150px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .masthead .box-text {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -146,11 +141,6 @@
 }
 
 @media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-    padding: 0 0 5rem;
-    background-position: center -60px;
-  }
   .masthead h1 {
     font-size: 2.5rem;
     line-height: 3.5rem;
