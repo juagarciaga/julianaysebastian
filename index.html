@@ -292,13 +292,13 @@
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
           <h2 class="text-white mb-5">Envianos un email confirmando tu presencia !</h2>
 
-          <form name="rspv" class="form-inline d-flex flex-md-column" action="mailto:julianaysebastian2019@gmail.com" method="post" enctype="text/plain"  data-netlify="true">
-            <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputName" placeholder="Tu nombre..."> 
+          <form name="rspv" class="form-inline d-flex flex-md-column" action="mail.php" method="post" enctype="text/plain"  data-netlify="true">
+            <input name="name"  id="name" type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputName" placeholder="Tu nombre..."> 
             <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputNames" placeholder="Acompañantes..."> 
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Tu e-mail..."> 
+            <input name="email" id="email"  type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Tu e-mail..."> 
             <textarea  rows="2" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputSong" placeholder="Una canción que quieras escuchar en la fiesta!!"></textarea>
-            <textarea  rows="4" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMessage" placeholder="Algun mensaje que nos quieras dejar...."></textarea>
-            <button type="submit" class="btn btn-primary mx-auto">Enviar</button>
+            <textarea  name="comment" id="comment"  rows="4" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMessage" placeholder="Algun mensaje que nos quieras dejar...."></textarea>
+            <button type="submit" name="Submit" class="btn btn-primary mx-auto">Enviar</button>
           </form>
 
         </div>
@@ -325,7 +325,7 @@
     </div>
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
+    <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
