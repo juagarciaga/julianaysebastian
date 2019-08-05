@@ -144,12 +144,49 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-gray mb-4">Quieres darnos un regalo?</h2>
-          <p class="text-gray-50">El hecho que puedas compartir con nosotros este día ya es un súper regalo, pero si nos quieres ayudar a realizar algunos sueños, descubre aquí abajo cual sería el mejor regalo y el que más se acomoda a tu bolsillo...<br/>
-            Puedes ver nuestros datos <a class="btn text-primary p-0" data-toggle="modal" data-target="#exampleModal">bancarios aqui</a> o simplemente llevar un sobre con el dinero.
+          <p class="text-gray-50">El hecho que puedas compartir con nosotros este día ya es un súper regalo, pero si nos quieres ayudar a realizar nuestros sueños, <a class="btn text-primary p-0" data-toggle="modal" data-target="#regalos">descubre aquí</a> cual sería el mejor regalo y el que más se acomoda a tu bolsillo...<br/>
+            Puedes ver nuestros datos <a class="btn text-primary p-0" data-toggle="modal" data-target="#datosBancarios">bancarios aqui</a> o simplemente llevar un sobre con el dinero (lluvia de sobres).
           </p>  
         </div>
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal datos bancarios -->
+        <div class="modal fade" id="datosBancarios" tabindex="-1" role="dialog" aria-labelledby="datosBancariosLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="d-flex">
+                    <div class="d-flex w-50 flex-column border-right">
+                      <p>🇨🇴 En Colombia</p>
+                      <p>Bancolombia</p>
+                      <p>No. Cta Ahorros 066190688-81</p>
+                      <p>Juliana Andrea García Gallego</p>
+                      <p>C.C. 1'113'650'782</p>
+                    </div>
+                    <div class="d-flex w-50 flex-column">
+                      <p>🇧🇷 En Brasil</p>
+                      <p>Nubank</p>
+                      <p>Banco <strong>260 - Nu Pagamentos S.A.</strong> </p>
+                      <p>Agencia <strong>0001</strong></p>
+                      <p>Conta <strong>527673-7</strong></p>
+                      <p>C.P.F. 234.957.388.51</p>
+                      <img src="/img/QRCode.jpeg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Regalos -->
+        <div class="modal fade" id="regalos" tabindex="-1" role="dialog" aria-labelledby="regalosLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -276,7 +313,7 @@
           <h4>Código de vestuario</h4>
           <p class="text-black-50 mb-0">Queremos que te sientas lo más cómodo posible, sin embargo, recuerda que es un día importante, que siempre vamos a querer recordar.
             <br/><br/>
-            Puedes guiarte con la imagen a la izquierda, recuerda que estamos en tierra caliente! 
+            Puedes guiarte con la imagen propuesta. Recuerda que estamos en tierra caliente, no queremos verte en chanclas, pero, tampoco queremos verte con corbata! 🙃 
           </p>
         </div>
       </div>
