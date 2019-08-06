@@ -152,6 +152,10 @@
   }
 }
 
+.modal-dialog {
+  max-width: 800px;
+}
+
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
